@@ -3,6 +3,14 @@ class Solution {
      * @param {string} s1
      * @param {string} s2
      * @return {boolean}
+     * 
+     * 
+     * s1 = "ab"
+     * s2 = "eidbaooo"
+     * permutation of s1 : ab, ba
+     * 
+     * 
+     * 
      */
     checkInclusion(s1, s2) {
         //edge case
@@ -25,4 +33,12 @@ class Solution {
     }
      return false;
  }
+}
+// brute force approach
+function purePermutation(s1, s2) {
+    if (s1.length > s2.length) return false;
+
+
+
+
 }
